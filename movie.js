@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let movieName = movieTitle || "3 Idiots";
         let apiKey = "c9947a67"; 
 
-        let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${apiKey}`;
+        let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${apiKey}`;
 
         fetch(url)
             .then((resp) => resp.json())
